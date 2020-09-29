@@ -1,0 +1,116 @@
+body {
+  font-family: "OpenSans", sans-serif;
+}
+
+.awesome {
+    width: 100%;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.awesome-title {
+    text-align: center;
+    margin-top: 107px;
+}
+
+.awesome-title:after {
+    content: "";
+    display: block;
+    width: 64px;
+    height: 2px;
+    margin: 30px auto;
+
+    background-color: #FF8C2C;
+}
+
+.awesome-title h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+
+    text-transform: uppercase;
+}
+
+.awesome-subtitle {
+    text-align: center;
+}
+
+.awesome-subtitle p {
+    font-weight: 300;
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.awesome-section {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1112px;
+    margin: 80px auto;
+}
+
+.awesome-icon-light {
+    border: 2px solid #FF8C2C;
+    border-radius: 100%;
+    width: 70px;
+    margin: 0 auto;
+}
+
+.awesome-icon-light img {
+    width: 19px;
+    height: 28px;
+    padding: 21px 25px;
+}
+
+.awesome-icon-keyboard {
+    border: 2px solid #FF8C2C;
+    border-radius: 100%;
+    width: 69px;
+    height: 69px;
+    margin: 0 auto;
+}
+
+.awesome-icon-keyboard img {
+    width: 35px;
+    height: 21px;
+    padding: 25px 17px;
+}
+
+.awesome-icon-flash {
+    border: 2px solid #FF8C2C;
+    border-radius: 100%;
+    width: 71px;
+    height: 69px;
+    margin: 0 auto;
+}
+
+.awesome-icon-flash img {
+    width: 22px;
+    height: 31px;
+    padding: 20px 26px;
+}
+
+.awesome-item-title {
+    text-align: center;
+    margin: 29px 0 25px;
+}
+
+.awesome-item-title h3 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.awesome-desc {
+    display: block;
+    margin: 0 25px;
+    max-width: 350px;
+    text-align: center;
+}
+
+.awesome-desc p {
+    font-weight: 300;
+    font-size: 14px;
+    opacity: 0.5;
+}
